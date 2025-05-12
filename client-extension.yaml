@@ -1,0 +1,8 @@
+assemble:
+    - from: frontend/build/static
+      into: static
+sample-web-component-cx-js-import-maps-entry:
+    bareSpecifier: sampleWebComponent
+    name: Sample Web Component CX JS Import Maps Entry
+    type: jsImportMapsEntry
+    url: assets/index-*.js

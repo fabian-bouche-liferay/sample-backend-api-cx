@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>React App</title>
+    <script type="text/javascript">
+
+      (function () {
+          if (!window.Liferay) {
+              window.Liferay = {};
+          }
+          
+          if (!window.Liferay.Util) {
+              window.Liferay.Util = {};
+          }
+
+          if (!window.Liferay.Icons) {
+              window.Liferay.Icons = {};
+          }
+
+          window.Liferay.Icons.spritemap = "/icons.svg";
+      })();
+
+    </script>
+  </head>
+  <body>
+    <sample-web-component></sample-web-component>
+    <script type="module" src="/index.jsx"></script>
+  </body>
+</html>
